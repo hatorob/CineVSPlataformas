@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reto 1 JS Challenge</title>
+</head>
+
+<body>
+
+    <main class="container__reto">
+        <section class="reto">
+            <div class="reto__title">
+                <h1>Reto 1 JS Challenge</h1>
+            </div>
+            <div class="reto__form">
+                <form action="#" class="form">
+                    <div class="pelicula">
+                        <label for="numerosPeliculas">
+                            ¿Cuantas peliculas quieres ver este mes?
+                        </label>
+                        <input type="number" id="numerosPeliculas" class="uno">
+                    </div>
+                    <label for="plataformas">
+                        Escoje las plataformas de peliculas de tu preferencia
+                    </label>
+                    <div class="opciones">
+                        <label for="opcion1"> <input type="checkbox" id="opcion1"> Netflix</label>
+                        <br>
+                        <label for="opcion2"> <input type="checkbox" id="opcion2"> Amazon Prime Video</label>
+                        <br>
+                        <label for="opcion3"> <input type="checkbox" id="opcion3"> HBO</label>
+                        <br>
+                        <label for="opcion4"> <input type="checkbox" id="opcion4"> Sky TV</label>
+                        <br>
+                        <label for="opcion5"> <input type="checkbox" id="opcion5"> Disney+</label>
+                    </div>
+                </form>
+                <button type="submit" class="btn" onclick="peliculas()"> Enviame los datos  </button>
+            </div>
+            <p id="resultado">
+
+            </p>
+        </section>
+    </main>
+
+
+    <script src="./app.js"></script>
+</body>
+
+
+</html>
