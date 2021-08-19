@@ -82,3 +82,24 @@ body {
     font-size: 30px;
     color: red;
 }
+
+@media (max-width: 745px) {
+    .container__reto {
+        width: 90%;
+    }
+    .reto {
+        width: 85%;
+        grid-template-rows: 120px 1fr;
+    }
+    .reto__title {
+        font-size: 20px;
+    }
+    .reto__form {
+        width: 85%;
+        font-size: 18px;
+    }
+    #resultado {
+        width: 85%;
+        font-size: 20px;
+    }
+}
